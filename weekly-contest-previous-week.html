@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Previous Weeks</title>
+<link rel="stylesheet" href="/assets/css/previous-week.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Previous Weeks Question and Answer</h2>
+  <ul id="dashboardList">
+    <li onclick="downloadFile(1)">Week 1</li>
+    <li onclick="downloadFile(2)">Week 2</li>
+    <li onclick="downloadFile(3)">Week 3</li>
+    <li onclick="downloadFile(4)">Week 4</li>
+    <li onclick="downloadFile(5)">Week 5</li>
+    <li onclick="downloadFile(6)">Week 6</li>
+    <li onclick="downloadFile(7)">Week 7</li>
+    <li onclick="downloadFile(8)">Week 8</li>
+    <li onclick="downloadFile(9)">Week 9</li>
+    <li onclick="downloadFile(10)">Week 10</li>
+  </ul>
+</div>
+<script>
+    function downloadFile(week) {
+    var filename = 'week' + week + '.pdf';
+    var link = document.createElement('a');
+    link.setAttribute('href', filename);
+    link.setAttribute('download', filename);
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
+</body>
+</html>
