@@ -1628,9 +1628,14 @@
   .blog-posts {
     padding: 60px 0;
   }
+  .output-img {
+    height: 430px;
+    width: 680px;
+  }
+
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 770px) {
   h1 {
     font-size: 30px;
     line-height: 35px;
@@ -2128,9 +2133,23 @@
   .navbar-collapse {
     width: 32% !important;
   }
-
+  .output-img {
+    height: 360px;
+    width: 570px;
+    padding-bottom: 15px;
+  }
+  .note-section-page {
+    max-width: 460px;
+  }
   .blog-posts {
     padding: 60px 0 0;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .output-img {
+    height: 280px;
+    width: 475px;
   }
 }
 
@@ -2139,7 +2158,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-
+  
   h1 {
     font-size: 26px;
     line-height: 32px;
@@ -2314,7 +2333,7 @@
   h3 {
     font-size: 20px;
     line-height: 28px;
-}
+  }
   .cyber-security-section {
     padding: 60px 20px 0px;
   }
@@ -2508,7 +2527,7 @@
   }
   .contact-us-margin {
     margin-right:0;
-}
+  }
 
   /* footer */
   .footer-section .footer-content1 figure img {
@@ -2697,4 +2716,135 @@
   .about-teams-section {
     padding-bottom: 0 !important;
   }
+  .wcq-container h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .output-img {
+    height: 250px;
+    width: 390px;
+  }
+  .note-section-page {
+    max-width: 355px;
+  }
+  .wcq-container p {
+    font-size: 16px;
+  }
+  .wcq-container a {
+    font-size: 16px;
+  }
+  .wcq-container .sub-title {
+    font-size: 28px;
+  }
+  .note-section-page h3 {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 445px) {
+  
+  .output-img {
+    height: 200px;
+    width: 330px;
+  }
+  .wcq-container {
+    padding: 15px;
+    width: 85%;
+  }
+  .wcq-container h1 {
+    font-size: 27px;
+  }
+  .wcq-container .sub-title {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .note-section-page {
+    max-width: 315px;
+    padding-right: 33px;
+    padding-left: 33px;
+  }
+  .note-section-page h3 {
+    font-size: 26px;
+    margin-bottom: 24px;
+    line-height: 33px;
+  }
+  ol{
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 395px) {
+  
+  .wcq-container h1 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .wcq-container .sub-title {
+    font-size: 23px;
+  }
+  .wcq-container h2 {
+    line-height: 43px;
+  }
+  .output-img {
+    height: 190px;
+    width: 295px;
+    padding-bottom: 10px;
+  }
+  .note-section-page {
+    max-width: 290px;
+    padding: 30px 28px 40px 30px;
+  }
+  .note-section-page h3 {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (max-width: 285px){
+  .output-img {
+    height: 135px;
+    width: 215px;
+  }
+  .note-section-page h3 {
+    font-size: 19px;
+    margin-bottom: 18px;
+  }
+  .note-section-page {
+    max-width: 218px;
+    padding: 22px 25px 35px 22px;
+  }
+  .wcq-container{
+    width: 91%;
+  }
+  .wcq-container a {
+    font-size: 11.5px;
+  }
+  .wcq-container .sub-title {
+    font-size: 16px;
+  }
+  ol{
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+  .note-section-page .banner-btn-about {
+    padding-top: 8px;
+  }
+  .wcq-container h1 {
+    font-size: 16px;
+    line-height: 38px;
+  }
+  .note-section-page .banner-btn-about a {
+    padding: 9px 13px 9px 13px;
+  }
+  .wcq-container h2 {
+    line-height: 36px;
+    font-size: 14px;
+  }
+  .wcq-container p {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
 }
