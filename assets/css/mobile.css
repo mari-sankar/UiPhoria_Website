@@ -2740,6 +2740,9 @@
     text-align: center;
   }
   .pw-container h2{
+    display: block;
+    text-align: center;
+    margin: auto;
     font-size: 33px;
   }
   .pw-container h2 span{
