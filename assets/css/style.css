@@ -1952,7 +1952,7 @@ color: var(--e-global-color-about-teams-red);
 .file-list li a {
   display: block;
   text-align: center;
-  padding: 10px;
+  padding: 13px;
   text-decoration: none;
   color: #fff;
   border-radius: 5px;
