@@ -2739,6 +2739,12 @@
   .note-section-page h3 {
     text-align: center;
   }
+  .pw-container h2 span{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 26px;
+  }
 
 }
 
