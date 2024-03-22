@@ -257,6 +257,11 @@ a {
   margin-bottom: 0;
   margin-right: 20px;
 }
+.clients-section .clients-outer-box .clients-outer-box-figure img{
+  height: 115px;
+  width: 115px;
+  border-radius: 15px;
+}
 .clients-section .clients-outer-box .clients-sectionp2{
   padding: 0 0px 0 2px;
   margin-bottom: 28px;
@@ -266,7 +271,7 @@ a {
 }
 .clients-section .clients-right-content .spencer-span{
   color: var(--e-global-color-grey-cyber-box);
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 30px;
   display: block;
@@ -274,7 +279,7 @@ a {
 }
 .clients-section .clients-right-content .ceo-p{
   color: var(--e-global-color-btn-red);
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   padding: 0;
@@ -1952,7 +1957,7 @@ color: var(--e-global-color-about-teams-red);
 .file-list li a {
   display: block;
   text-align: center;
-  padding: 13px;
+  padding: 14px;
   text-decoration: none;
   color: #fff;
   border-radius: 5px;
