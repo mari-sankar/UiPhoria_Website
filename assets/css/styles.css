@@ -3,25 +3,31 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}
-#navbar {
+  }
+  #navbar {
     padding: 10px;
     text-align: center;
-}
-#navbar img {
+  }
+  #navbar img {
     margin-top: 10px;
     margin-left: 35px;
     max-width: 14%;
     height: auto;
     display: block;
-}
-#container {
-    min-height: 100vh;
+  }
+  #container {
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
-}
-#container .left {
+    /*background-image: url(/assets/images/credential-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    box-sizing: initial;
+  }
+  #container .left {
     flex: 1;
     padding-right: 10px;
     display: flex;
@@ -29,38 +35,36 @@ body {
     row-gap: 30px;
     align-items: center;
     padding-top: 20px;
-}
-#container .right {
+  }
+  #container .right {
     flex: 2;
-    padding-left: 10px;
+    padding-left: 10px;  
     padding-top: 20px;
-}
-.image-container {
+  }
+  .image-container {
     margin-bottom: 20px;
-    width: 100%; /* Adjusted width for responsiveness */
-    max-width: 200px; /* Added max-width for responsiveness */
-    height: auto; /* Height set to auto for responsive scaling */
-}
-.image-container img {
-    width: 100%;
-    height: auto;
+    width: 135px;
+    height: 135px;
+  }
+  .image-container img {
+    max-width: 100%;
     display: block;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
-}
-.displayed-image img {
-    width: 100%;
-    height: auto;
-    max-width: 670px; /* Adjusted max-width for responsiveness */
-    max-height: 495px; /* Adjusted max-height for responsiveness */
-}
-.displayed-image img.image-1.active {
-    max-width: 420px; /* Adjusted max-width for responsiveness */
-    max-height: 420px; /* Adjusted max-height for responsiveness */
-}
-.image-container.image2 img.active,
-.image-container.image1 img.active {
-    background-color: rgba(200, 200, 200, 0.7);
+  }
+  .image-container.image2 img, .image-container.image1 img{
+    padding: 20px;
+  }
+  .displayed-image img{
+    width: 670px;
+    height: 495px;
+  }
+  .displayed-image img.image-1.active{
+    width: 420px;
+    height: 420px;
+  }
+  .image-container.image2 img.active, .image-container.image1 img.active{
+    background-color: rgba(200, 200, 200, 0.7);    
     border: none;
     border-radius: 5px;
-}
+  }
