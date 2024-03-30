@@ -155,3 +155,38 @@ body {
 .dropdown:focus-within .dropdown-content {
   display: block;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.event {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    section {
+        display: flex;
+        justify-content: space-around;
+    }
+    .event {
+        width: 45%;
+    }
+}
