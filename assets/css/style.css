@@ -291,8 +291,8 @@ a {
 }
 .clients-section  .clients-right-content{
   margin-left: 12px;
-  padding-top: 5px;
-  margin-bottom: 25px;
+  padding-top: 20px;
+  margin-bottom: 49px;
 }
 .clients-section .clients-outer-box ul li{
   display: inline;
@@ -1971,4 +1971,11 @@ color: var(--e-global-color-about-teams-red);
 .file-list li a:hover {
   background-color: #fff;
   color: #101010;
+}
+.bottom-icons{
+  display: flex;
+}
+.bottom-icons .right{
+  
+  float: right;
 }
