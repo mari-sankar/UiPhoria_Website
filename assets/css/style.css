@@ -1967,15 +1967,32 @@ color: var(--e-global-color-about-teams-red);
   border: 1px solid #ccc;
   transition: background-color 0.3s;
 }
-
 .file-list li a:hover {
   background-color: #fff;
   color: #101010;
 }
-.bottom-icons{
-  display: flex;
+.social-list li{
+  padding-right: 10px;
 }
-.bottom-icons .right{
-  
+
+.scontainer {
+  width: 100%;
+  overflow: hidden; /* Clearfix to contain floated elements */
+}
+
+.scontainer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left-ul {
+  float: left;
+}
+
+.right-ul {
   float: right;
+}
+.right-ul li{
+  padding-right: 10px;
 }
