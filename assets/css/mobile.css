@@ -2603,7 +2603,7 @@
     padding: 0 25px 0 25px;
     font-size: 20px;
     line-height: 26px;
-}
+  }
 
   .contact-us-section .contact-section-btn .btn {
     font-size: 16px;
@@ -2751,6 +2751,12 @@
     text-align: center;
     margin: auto;
     font-size: 24px;
+  }
+  .scontainer {
+    margin-bottom: 15px;
+  }
+  .about-banner-text{
+    padding-top: 30px;
   }
 
 }
