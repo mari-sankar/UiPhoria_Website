@@ -201,7 +201,7 @@
   }
 
   .about-us-section-start {
-    padding: 40px 0;
+    padding: 30px 0 100px 0;
   }
 
   .teams-page {
@@ -219,7 +219,7 @@
 
   /* cyber-section */
   .cyber-security-section {
-    padding: 122px 0 0px;
+    padding: 122px 0 40px;
   }
 
   .accordian-section {
@@ -278,7 +278,7 @@
 
   .home-banner-section {
     padding-top: 55px;
-    padding-bottom: 70px;
+    padding-bottom: 5px;
   }
 
   .main-header .navbar-brand {

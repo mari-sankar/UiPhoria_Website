@@ -141,9 +141,6 @@ a {
   padding: 0px 0 193px 0;
 }
 /* aboutus page */
-.about-banner-text{
-  margin-bottom: 60px;
-}
 .about-banner-text .about-h1{
   font-size: 40px;
   font-weight: 600;
@@ -233,7 +230,7 @@ a {
   padding: 109px 0 0px;
 }
 .services-clients-section{
-  padding: 60px 0 20px;
+  padding: 60px 0;
 }
 .clients-section p{
   color: var(--e-global-color-grey-icons);
@@ -313,7 +310,7 @@ a {
 .clients-section .clients-section-btn{
   display: flex;
   justify-content: center;
-  padding-top:80px;
+  padding-top:60px;
 }
 .clients-section .clients-section-btn a {
   color: var(--e-global-color-white-banner-text);
@@ -751,6 +748,8 @@ a {
 }
 .about-us-section-start {
   padding:59px 0px 0;
+}
+.about-us-section-start.about{
   background: var(--e-global-color-dark-icons-background);
 }
 .aboutus-page{
@@ -758,7 +757,6 @@ a {
 }
 .about-us-section-2 {
   padding: 73px 0px 0;
-  background: var(--e-global-color-dark-icons-background);
 }
 .about-us-section-2 p {
   color: var(--e-global-color-grey-icons);
@@ -903,7 +901,7 @@ color: var(--e-global-color-white-banner-text);
   margin-top: -63px;
 }
 .cyber-security-section{
-  padding: 192px 0 0px;
+  padding: 192px 0 40px;
   background: var(--e-global-color-dark-icons-background);
 }
 .cyber-boxes-section .cyber-boxes-text{
@@ -964,7 +962,7 @@ letter-spacing: 0;
 }
 .Services-About-us-Section{
   padding: 0 0 120px;
-  background-image: linear-gradient( 144deg, var(--e-global-color-dark-marron) 8%, var(--e-global-color-dark-icons-background) 18% );
+  /*background-image: linear-gradient( 144deg, var(--e-global-color-dark-marron) 8%, var(--e-global-color-dark-icons-background) 18% );*/
 }
 /* boxes-section */
 .cyber-boxes-section{padding: 80px 0px 0;background: var(--e-global-color-dark-icons-background);}
@@ -1374,7 +1372,7 @@ color: var(--e-global-color-about-teams-red);
 
 .footer-section .footer-outer-margin{
   padding-top: 50px;
-  padding-bottom: 95px;
+  padding-bottom: 15px;
 }
 .footer-section .footer-icon {
   position: absolute;
@@ -1391,7 +1389,7 @@ color: var(--e-global-color-about-teams-red);
  padding: 32px 0 35px;
 }
 .footer-section .red-light-footer-p{
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   font-weight: 400;
   color: var(--e-global-color-grey-cyber-box);
@@ -1462,7 +1460,7 @@ color: var(--e-global-color-about-teams-red);
   color: var(--e-global-color-red-active);
 }
 .footer-section .footer-content1 figure{
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 .footer-section .footer-content1{
   padding-top: 6px;
@@ -1995,4 +1993,36 @@ color: var(--e-global-color-about-teams-red);
 }
 .right-ul li{
   padding-right: 10px;
+}
+.footer-outer-margin .container .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-content1{
+  max-width: 500px;
+}
+.footer-outer-margin .container .row .col-lg-4,
+.footer-outer-margin .container .row .col-lg-3 {
+    flex-basis: calc((100% / 3)); /* Set width for each column */
+    margin-bottom: 20px; /* Add margin between columns */
+}
+
+.footer-outer-margin .container .row .left {
+  order: 1; /* Set order of left column */
+}
+
+/* Right column styles */
+.footer-outer-margin .container .row .right {
+  order: 2; /* Set order of right column */
+}
+.img-fluid.foot {
+  max-width: 90%;
+}
+.row .about-btn{
+  margin-bottom: 25px;
+}
+
+.cyber-security-section .cyber-security-provider-img{
+  margin-top: 90px;
 }

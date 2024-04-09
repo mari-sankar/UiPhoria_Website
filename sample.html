@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circular Card Slider</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+  
+  <link rel="stylesheet" href="assets/css/sample.css">
+
+</head>
+<body>
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="assets/images/Sweatha.jpg" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Sweatha R</span>
+                    <span class="card_name">2023 - 24</span>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam porriusto voluptates deserunt fugit!</p>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="assets/images/sundar2.png" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Sundar N</span>
+                    <span class="card_name">2022 - 23</span>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam porriusto voluptates deserunt fugit!</p>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="assets/images/anjana.jpeg" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Anjana S</span>
+                    <span class="card_name">2021 - 22</span>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam porriusto voluptates deserunt fugit!</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        //autoplay: true,
+        //autoplayTimeout: 1000, 
+        //autoplayHoverPause: true,
+        effect: "coverflow",
+        //grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: -50,
+            depth: 350,
+            modifier: 1,
+            slideShadows: false,
+        },
+        pagination: {
+        //    el: ".swiper-pagination",
+        },
+    });
+    </script>
+</body>
+</html>
