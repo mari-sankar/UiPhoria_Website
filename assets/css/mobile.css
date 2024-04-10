@@ -1642,6 +1642,9 @@
     line-height: 35px;
     padding: 0;
   }
+  .text-white.title{
+    font-size: 30px;
+  }
 
   .about-banner-text .about-h1 {
     font-size: 30px;
@@ -1953,10 +1956,6 @@
     padding-bottom: 70px;
   }
 
-  .footer-section {
-    padding-top: 70px;
-  }
-
   .form-section-starts {
     padding: 70px 0 0;
   }
@@ -2159,6 +2158,10 @@
     font-size: 16px;
     line-height: 24px;
   }
+  .artificial-text{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
   
   h1 {
     font-size: 26px;
@@ -2177,7 +2180,7 @@
   }
 
   .banner-paragraph {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     margin-bottom: 18px;
     padding: 0 10px;
@@ -2757,6 +2760,31 @@
   }
   .about-banner-text{
     padding-top: 30px;
+  }
+  .footer-outer-margin .container .row{
+    display: inline-block;
+  }
+  .footer-section .footer-outer-margin{
+    padding-top: 35px;
+  }
+  .cards-section{
+    padding-bottom: 25px;
+  }
+  .show-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-icon a{
+    color: var(--e-global-color-grey-cyber-box);
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .mobile-icon a:hover{
+    color: var(--e-global-color-btn-red);
+    transform: translateY(-10px);
   }
 
 }

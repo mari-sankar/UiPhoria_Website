@@ -736,8 +736,9 @@ a {
 .icons-section .logo-box figure img:hover {
   transform: translate(0, -5px);
 }
-.text-white{
-  font-size: 42px;
+.text-white.title{
+  font-size: 36px;
+  letter-spacing: -1px;
 }
 
 /* about-us-section-start */
@@ -1373,6 +1374,9 @@ color: var(--e-global-color-about-teams-red);
   position: relative;
 }
 
+.show-icon{
+  display: none;
+}
 .footer-section .footer-outer-margin{
   padding-top: 50px;
   padding-bottom: 15px;
