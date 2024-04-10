@@ -736,6 +736,9 @@ a {
 .icons-section .logo-box figure img:hover {
   transform: translate(0, -5px);
 }
+.text-white{
+  font-size: 42px;
+}
 
 /* about-us-section-start */
 .about-us-section-start p {
