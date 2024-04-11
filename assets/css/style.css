@@ -2034,7 +2034,7 @@ color: var(--e-global-color-about-teams-red);
   margin-top: 90px;
 }
 .swiper-title{
-  margin-top: 15px;
+  font-size: 32px;
 }
 .swiper{
   display: flex;    

@@ -2144,13 +2144,12 @@
   .blog-posts {
     padding: 60px 0 0;
   }
-}
 
-@media screen and (max-width: 770px){
   .output-img {
     height: 280px;
     width: 475px;
   }
+  
 }
 
 @media screen and (max-width: 575px) {
@@ -2791,6 +2790,9 @@
   }
   .swiper{
     height: 350px;
+  }
+  .swiper-title{
+    margin-top: 55px;
   }
 
 }
