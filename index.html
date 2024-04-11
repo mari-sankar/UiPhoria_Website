@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>UiPhoria</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
 <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
@@ -155,9 +156,39 @@ crossorigin="anonymous" referrerpolicy="no-referrer"/>
                         </div>
                     </div>
                 </div>
+                <h3 class="text-center swiper-title">Achievement</h3>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/1.jpg" alt="">
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/2.jpg" alt="">
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/3.jpg" alt="">
+                        </div>  
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/4.jpg" alt="">
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/5.jpg" alt="">
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/6.jpg" alt="">
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/7.jpg" alt="">
+                        </div>   
+                        <div class="card swiper-slide">
+                            <img src="assets/images/UiPath/8.jpg" alt="">
+                        </div>   
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
     <!-- Footer-Section -->
     <div class="footer-section">
         <div class="about-right-icon">
@@ -272,6 +303,29 @@ crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <script src="assets/js/owl.carousel.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/text-animations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 1000, 
+        autoplayHoverPause: true,
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: -20,
+            depth: 350,
+            modifier: 1,
+            slideShadows: false,
+        },
+        pagination: {
+           el: ".swiper-pagination",
+        },
+    });
+    </script>
   
 </body>
 

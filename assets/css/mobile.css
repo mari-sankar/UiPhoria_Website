@@ -2786,6 +2786,12 @@
     color: var(--e-global-color-btn-red);
     transform: translateY(-10px);
   }
+  .swiper-title{
+    font-size: 32px;
+  }
+  .swiper{
+    height: 350px;
+  }
 
 }
 

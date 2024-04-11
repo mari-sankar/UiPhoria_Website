@@ -2033,3 +2033,32 @@ color: var(--e-global-color-about-teams-red);
 .cyber-security-section .cyber-security-provider-img{
   margin-top: 90px;
 }
+
+.swiper{
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 90%;
+  height: 400px;
+}
+.swiper-wrapper{
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+.card{
+  width: 405px;
+  height: 265px;
+  margin: 0 2em;
+  border: none;
+}
+.swiper-slide:not(.swiper-slide-active){
+  filter: blur(0.5px);
+}
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
