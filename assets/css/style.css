@@ -2033,7 +2033,9 @@ color: var(--e-global-color-about-teams-red);
 .cyber-security-section .cyber-security-provider-img{
   margin-top: 90px;
 }
-
+.swiper-title{
+  margin-top: 15px;
+}
 .swiper{
   display: flex;    
   justify-content: center;
