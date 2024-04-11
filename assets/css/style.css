@@ -1393,7 +1393,7 @@ color: var(--e-global-color-about-teams-red);
 }
 .footer-section .footer-bar-content{
  border-top: 1px solid var(--e-global-color-grey-cyber-box);
- padding: 32px 0 35px;
+ /*padding: 32px 0 35px;*/
 }
 .footer-section .red-light-footer-p{
   font-size: 15px;
@@ -2024,7 +2024,8 @@ color: var(--e-global-color-about-teams-red);
   order: 2; /* Set order of right column */
 }
 .img-fluid.foot {
-  max-width: 90%;
+  max-width: 80%;
+  margin-left: 30px;
 }
 .row .about-btn{
   margin-bottom: 25px;
