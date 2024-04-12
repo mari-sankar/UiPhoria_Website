@@ -1470,11 +1470,7 @@
   .cards-section{
     padding-bottom: 25px;
   }
-  .show-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
   .mobile-icon a{
     color: var(--e-global-color-grey-cyber-box);
     font-size: 20px;
@@ -2166,6 +2162,11 @@
   }
   .remove{
     display: none;
+  }
+  .show-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
 }
