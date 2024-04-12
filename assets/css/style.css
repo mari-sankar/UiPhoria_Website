@@ -753,9 +753,6 @@ a {
 .about-us-section-start {
   padding:59px 0px 0;
 }
-.about-us-section-start.about{
-  background: var(--e-global-color-dark-icons-background);
-}
 .aboutus-page{
   background-image: linear-gradient( 150deg, var(--e-global-color-dark-marron) 0%, var(--e-global-color-dark-icons-background) 20% );
 }
@@ -906,7 +903,6 @@ color: var(--e-global-color-white-banner-text);
 }
 .cyber-security-section{
   padding: 192px 0 40px;
-  background: var(--e-global-color-dark-icons-background);
 }
 .cyber-boxes-section .cyber-boxes-text{
 font-size: 20px;
@@ -969,7 +965,9 @@ letter-spacing: 0;
   /*background-image: linear-gradient( 144deg, var(--e-global-color-dark-marron) 8%, var(--e-global-color-dark-icons-background) 18% );*/
 }
 /* boxes-section */
-.cyber-boxes-section{padding: 80px 0px 0;background: var(--e-global-color-dark-icons-background);}
+.cyber-boxes-section{
+  padding: 80px 0px 0;
+}
 /* accordian-section */
 .accordian-section .accordian-inner .accordion-card .btn{
   padding: 15px 58px 15px 21px;
@@ -2031,7 +2029,7 @@ color: var(--e-global-color-about-teams-red);
 }
 
 .cyber-security-section .cyber-security-provider-img{
-  margin-top: 90px;
+  padding-top: 115px;
 }
 .swiper-title{
   font-size: 32px;
