@@ -1363,7 +1363,9 @@ color: var(--e-global-color-about-teams-red);
   border-top-right-radius:10px;
   border-bottom-right-radius:10px;
 }
+
 /* Footer */
+
 .footer-section{
   background-position: center;
   background-repeat: no-repeat;
@@ -1371,13 +1373,9 @@ color: var(--e-global-color-about-teams-red);
   background-image: linear-gradient( -24deg, var(--e-global-color-dark-marron) 0%, var(--e-global-color-dark-icons-background) 16% );
   position: relative;
 }
-
-.show-icon{
-  display: none;
-}
 .footer-section .footer-outer-margin{
   padding-top: 50px;
-  padding-bottom: 15px;
+  /*padding-bottom: 15px;*/
 }
 .footer-section .footer-icon {
   position: absolute;
@@ -1390,8 +1388,8 @@ color: var(--e-global-color-about-teams-red);
   color: var(--e-global-color-grey-cyber-box);
 }
 .footer-section .footer-bar-content{
- border-top: 1px solid var(--e-global-color-grey-cyber-box);
- /*padding: 32px 0 35px;*/
+  border-top: 1px solid var(--e-global-color-grey-cyber-box);
+  padding: 32px 0 35px;
 }
 .footer-section .red-light-footer-p{
   font-size: 15px;
@@ -1422,7 +1420,6 @@ color: var(--e-global-color-about-teams-red);
 .footer-section .teams-social-icons ul li a:hover {
   transform: translate(0, -10px);
 }
-
 .footer-section .services-footer a{
   font-size: 16px;
   line-height:30px;
@@ -1488,6 +1485,40 @@ color: var(--e-global-color-about-teams-red);
 .footer-section .footer-content1 .social-icons ul li .social-networks {
   font-size: 14px;
   line-height: 14px;
+}
+.banner-container-box-comming-soon .comming-soon-footer{
+  color: var(--e-global-color-coming-soon);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align:center;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+}
+.footer-content1 figure a{
+  text-decoration: none;
+}
+.footer-outer-margin .container .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-content1{
+  max-width: 500px;
+}
+.footer-outer-margin .container .row .col-lg-4,
+.footer-outer-margin .container .row .col-lg-3 {
+    flex-basis: calc((100% / 3)); /* Set width for each column */
+    margin-bottom: 20px; /* Add margin between columns */
+}
+.footer-outer-margin .container .row .left {
+  order: 1; /* Set order of left column */
+}
+.footer-outer-margin .container .row .right {
+  order: 2; /* Set order of right column */
+}
+.show-icon{
+  display: none;
 }
 /* images-animation */
 .blogs-section-starts .blogs-section .images-blog, .about-teams-inner .about-team .icons-rounded-box {
@@ -1786,15 +1817,6 @@ color: var(--e-global-color-about-teams-red);
   background-image: linear-gradient( 134deg, var(--e-global-color-dark-marron) 16%, var(--e-global-color-dark-icons-background) 38% );
   padding: 273px 0 99px;
 }
-.banner-container-box-comming-soon .comming-soon-footer{
-  color: var(--e-global-color-coming-soon);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align:center;
-  letter-spacing: 0px;
-  word-spacing: 2px;
-}
 .banner-container-box-comming-soon .whyus-icon{
   position: absolute;
   right: 0;
@@ -1804,9 +1826,6 @@ color: var(--e-global-color-about-teams-red);
 .blog-posts{
   background-image: linear-gradient( 122deg, var(--e-global-color-dark-marron) 5%, var(--e-global-color-dark-icons-background) 25% );
   padding: 120px 0;
-}
-.footer-content1 figure a{
-  text-decoration: none;
 }
 .dropdown-content-redlight ul li a{
   font-size: 16px;
@@ -1818,7 +1837,8 @@ color: var(--e-global-color-about-teams-red);
 
 .wcq-container {
   width: 80%;
-  margin: 20px auto;
+  margin-right: auto;
+  margin-left: auto;
   padding: 20px;
   border-radius: 5px;
 }
@@ -1939,7 +1959,6 @@ color: var(--e-global-color-about-teams-red);
 
 .pw-container{
   max-width: 600px;
-  margin: 50px auto;
   padding: 20px;
   border-radius: 8px;
 }
@@ -1998,28 +2017,6 @@ color: var(--e-global-color-about-teams-red);
 }
 .right-ul li{
   padding-right: 10px;
-}
-.footer-outer-margin .container .row{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.footer-content1{
-  max-width: 500px;
-}
-.footer-outer-margin .container .row .col-lg-4,
-.footer-outer-margin .container .row .col-lg-3 {
-    flex-basis: calc((100% / 3)); /* Set width for each column */
-    margin-bottom: 20px; /* Add margin between columns */
-}
-
-.footer-outer-margin .container .row .left {
-  order: 1; /* Set order of left column */
-}
-
-/* Right column styles */
-.footer-outer-margin .container .row .right {
-  order: 2; /* Set order of right column */
 }
 .img-fluid.foot {
   max-width: 80%;
