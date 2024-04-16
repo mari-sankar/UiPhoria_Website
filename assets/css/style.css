@@ -1960,16 +1960,20 @@ color: var(--e-global-color-about-teams-red);
 
 .pw-container{
   max-width: 600px;
-  padding: 20px;
+  padding: 50px 25px 60px 25px;
   border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pw-container h2{
   color: #cac9c9;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 30px;
   text-align: center;
   line-height: 45px;
+  margin: 0;
 }
 .file-list {
   list-style-type: none;
@@ -2111,9 +2115,8 @@ span.overlay {
 #filters a {
 	background: none;
 	outline: none;
-	color: #888;
+	color: #cecbcb;
 	text-decoration: none;
-	color: #888;
 	padding: 5px 20px 5px 20px;
 	border-radius: 5px;
 	-moz-border-radius: 3px;

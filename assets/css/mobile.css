@@ -122,6 +122,10 @@
     width: 67%;
   }
 
+  .home-banner-section{
+    padding-top: 110px;
+  }
+
 }
 
 @media screen and (max-width: 1550px) {
