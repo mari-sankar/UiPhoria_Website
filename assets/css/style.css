@@ -2120,3 +2120,7 @@ span.overlay {
 .wow{
   display: none;
 }
+
+.about-content{
+  margin-bottom: 75px;
+}
