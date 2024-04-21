@@ -1941,7 +1941,7 @@ color: var(--e-global-color-about-teams-red);
 /* previous week*/
 
 .pw-container{
-  max-width: 600px;
+  max-width: 800px;
   padding: 50px 25px 60px 25px;
   border-radius: 8px;
   display: block;
@@ -1960,6 +1960,9 @@ color: var(--e-global-color-about-teams-red);
 .file-list {
   list-style-type: none;
   padding: 0;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .file-list li {
@@ -2123,4 +2126,10 @@ span.overlay {
 
 .about-content{
   margin-bottom: 75px;
+}
+
+.pw-container .banner-paragrah{
+  color: var(--e-global-color-white-banner-text);
+  text-align: center;
+  margin-bottom: 45px;
 }
