@@ -8,13 +8,13 @@ body {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 0;
 }
 .leader-container h2{
   text-align: center;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 .leader-container table {
   width: 100%;
@@ -23,14 +23,16 @@ body {
 .leader-container th, td {
   padding: 12px 15px;
   text-align: left;
+  color: #fff;
   border-bottom: 1px solid #ddd;
 }
 .leader-container th {
-  background-color: #f2f2f2;
+  background-color: rgb(255, 255, 255,0.5);
+  color: #080808;
 }
-.leader-container tr:hover {
+/* .leader-container tr:hover {
   background-color: #f9f9f9;
-}
+} */
 #pagination-controls{
   position: relative;
   z-index: 100;
