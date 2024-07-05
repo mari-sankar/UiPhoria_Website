@@ -33,7 +33,7 @@ body {
 /* .leader-container tr:hover {
   background-color: #f9f9f9;
 } */
-#pagination-controls{
+/* #pagination-controls{
   position: relative;
   z-index: 100;
 }
@@ -42,7 +42,21 @@ body {
   padding: 7px;
   border-width: 0;
   color: white;
-  background-color: rgb(71, 126, 255);
+} */
+.wcp-pagecontrol{
+  padding: 30px 0;
+}
+.wcp-pagecontrol .back, .wcp-pagecontrol .next{
+  padding: 10px 23px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+}
+.wcp-pagecontrol .back{
+  float: left;
+}
+.wcp-pagecontrol .next{
+  float: right;
 }
 @media screen and (max-width: 768px) {
 .leader-container table {

@@ -109,6 +109,10 @@
                     <li><a href="/assets/Weekly Contest/RPA_Weekly_S02_W10.zip" download>Week 13</a></li>
                     <li><a href="/assets/Weekly Contest/RPA_Weekly_S02_W10.zip" download>Week 14</a></li>
                 </ul>
+                <div id="paginationControls" class="wcp-pagecontrol">
+                    <button id="prevButton" class="back" onclick="prevPage()" style="display: none;">Back</button>
+                    <button id="nextButton" class="next" onclick="nextPage()">Next</button>
+                </div>
             </div>
         </div>
     
@@ -220,6 +224,46 @@
         <script src="assets/js/owl.carousel.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="assets/js/text-animations.js"></script>
+        <script>
+            const itemsPerPage = 10;
+            let currentPage = 1;
+
+            function showPage(page) {
+                const listItems = document.querySelectorAll('.file-list li');
+                const totalItems = listItems.length;
+                const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+                // Hide all list items
+                listItems.forEach(item => item.style.display = 'none');
+
+                // Calculate start and end index for the current page
+                const startIndex = (page - 1) * itemsPerPage;
+                const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+
+                // Show the list items for the current page
+                for (let i = startIndex; i < endIndex; i++) {
+                    listItems[i].style.display = 'block';
+                }
+
+                // Show or hide pagination controls
+                document.getElementById('prevButton').style.display = page > 1 ? 'inline-block' : 'none';
+                document.getElementById('nextButton').style.display = page < totalPages ? 'inline-block' : 'none';
+            }
+
+            function nextPage() {
+                currentPage++;
+                showPage(currentPage);
+            }
+
+            function prevPage() {
+                currentPage--;
+                showPage(currentPage);
+            }
+
+            // Initialize the first page
+            showPage(currentPage);
+
+        </script>
       
     </body>
     

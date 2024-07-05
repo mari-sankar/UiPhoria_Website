@@ -1942,8 +1942,7 @@ color: var(--e-global-color-about-teams-red);
 
 .pw-container{
   max-width: 800px;
-  padding: 50px 25px 60px 25px;
-  border-radius: 8px;
+  padding: 50px 25px 70px 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1968,7 +1967,21 @@ color: var(--e-global-color-about-teams-red);
 .file-list li {
   margin-bottom: 10px;
 }
-
+.wcp-pagecontrol{
+  padding: 30px 0;
+}
+.wcp-pagecontrol .back, .wcp-pagecontrol .next{
+  padding: 10px 23px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+}
+.wcp-pagecontrol .back{
+  float: left;
+}
+.wcp-pagecontrol .next{
+  float: right;
+}
 .file-list li a {
   display: block;
   text-align: center;
@@ -1979,9 +1992,10 @@ color: var(--e-global-color-about-teams-red);
   border: 1px solid #ccc;
   transition: background-color 0.3s;
 }
-.file-list li a:hover {
-  background-color: #fff;
-  color: #101010;
+.file-list li a:hover, button:hover {
+  background-color: var(--e-global-color-red) !important;
+  border: none;
+  color: #ccc;
 }
 .social-list li{
   padding-right: 10px;
