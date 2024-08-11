@@ -31,6 +31,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <style>
+            p .excel{
+                color: #fff;
+                text-decoration-line: underline;
+            }
+            p .excel:hover{
+                color: #ef6548;
+            }
+        </style>
     </head>
 
     <body>
@@ -89,44 +98,85 @@
             <!-- BANNER-SECTION -->
             <div class="wcq-container">
                 <h1>Contest Question</h1>
-                <h4 class="sub-title">Week - 15</h4>
-                <div class="question">
-                    <h2>Problem Statement: </h2>
-                    <p>Rishi, a young smart man. He's like a goldfish in a sea of dates, struggling to keep track
-                        of birthdays. Remembering dates? That's like, asking a squirrel to remember where it
-                        buried its nuts in a forest of to-do lists! It's his mom's birthday, and poor Rishi is left
-                        scratching his head wondering how he missed it. Rishi is just trying to hold onto his
-                        birthday balloons before they fly away. Help him to create a bot using RPA to remind
-                        him the birthdays and wish them.<br><br>
-                        <span>Objectives:</span><br><br>
-                        1. Develop a bot that automates the process of reminding users of their birthdays and
-                        prompting users to send wishes.<br>
-                        2. If there are multiple birthdays on the same day, the bot will handle them sequentially,
-                        reminding the user for each one before proceeding to the next. <br>
-                        3. The bot's functionality will be evaluated based on its ability to accurately identify
-                        birthdays from the Excel file and prompt the user accordingly by setting the system to the
-                        specified date (06/05/24).<br><br>
-                        <span>Hint:</span><br><br>
-                        1. Use Message Box for prompting to send wishes.<br>
-                        2. Mail Body Structure - Refer Sample Output. <br>
-                    </p><br>
+                <h4 class="sub-title">Week - 22</h4>
+                <div class="year">
+                    <h2 class="titles active" id="title1">3rd year</h2>
+                    <h2 class="titles" id="title2">4th year</h2>
                 </div>
-                <div class="output">
-                    <h2>Sample Output:</h2>
-                    <img class="output-img" src="/assets/images/core-images/Automation/Weekly Contest/Sample Output/Week 15.png" alt="week-10 output">
+                <div class="content" id="content1">
+                    <div class="question">
+                        <h2>Problem Statement: </h2>
+                        <p>In various professional and academic settings, there is a frequent need to modify documents for readability and 
+                            presentation purposes. A common task involves extracting text from PDF documents, adjusting the font and font size, 
+                            and then converting the modified document back to PDF. This process can be time-consuming and prone to errors when 
+                            done manually. Develop an automated bot that can read text from a PDF document, convert it to a Word document, 
+                            change the font and font size as specified by the user, and then re-convert the modified document back to PDF.
+                            <br><br>
+                            <span>Your task is to create an RPA automation that :</span><br><br>1. Reads text in input PDF.
+                            2. Writes in word document.<br><br>
+                            3. Change font to “Times New Roman” and font size to 12<br><br>
+                            4. Convert it back to PDF.<br>
+                        </p><br>
+                    </div>
+                    <div class="output">
+                        <h2>Sample Output:</h2><br>
+                        <img class="output-img" src="/assets/images/core-images/Automation/Weekly Contest/Sample Output/Week 15.png" alt="week-10 output">
+                    </div>
+                    <div class="note-container">
+                        <div class="note-section-page" data-aos="fade-up">
+                            <h3>Important Note</h3>
+                                <ol>
+                                    <li>Participants can submit only once.</li>
+                                    <li>Submit your solution by clicking <b>Submit Here!</b></li>
+                                    <li><b>Deadline:</b> Submit on or before 7 PM Thursday (11/07/2024).</li>
+                                    <li>The submission instructions are mentioned in the Google Form itself.</li>
+                                </ol>
+                                <div class="banner-btn-about discover-btn-banner about-order-services">
+                                    <a href="https://forms.gle/qJ27amdu6Pkuocuz6" class="text-decoration-none">Submit Here!</a>
+                                </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="note-container">
-                    <div class="note-section-page" data-aos="fade-up">
-                        <h3>Important Note</h3>
-                            <ol>
-                                <li>Participants can submit only once.</li>
-                                <li>Submit your solution by clicking <b>Submit Here!</b></li>
-                                <li><b>Deadline:</b> Submit on or before 7 PM Thursday (25/04/2024).</li>
-                                <li>The submission instructions are mentioned in the Google Form itself.</li>
-                            </ol>
-                            <div class="banner-btn-about discover-btn-banner about-order-services">
-                                <a href="https://forms.gle/Y45oPycq6B79Xgb77" class="text-decoration-none">Submit Here!</a>
-                            </div>
+                <div class="content" id="content2">
+                    <div class="question">
+                        <h2>Problem Statement: </h2>
+                        <p>Henry Dev, a diligent professional, struggles with the tedious and error-prone task of manually 
+                            creating and distributing certificates to numerous recipients. Each certificate requires meticulous 
+                            attention to detail, and the process of verifying and sending them to the correct individuals is 
+                            time-consuming and frustrating. Despite his best efforts, mistakes in delivery occur, leading to 
+                            dissatisfaction and additional workload. Recognizing the inefficiency, Dev decides to develop a bot 
+                            that automates the entire process, from certificate creation to accurate distribution. This bot aims 
+                            to save time, reduce errors, and streamline the workflow, significantly enhancing efficiency and accuracy.
+                            <br><br>
+                            <span>Your task is to create an RPA automation that :</span><br><br>
+                            1. Develop a bot to automate the editing of names and dates in the PowerPoint certificates.<br><br>
+                            2. Implement a system for accurately matching and sending certificates to the correct email IDs.<br><br>
+                            3. Ensure the bot converts the edited PowerPoint certificates to PDFs before sending.<br><br>
+                            4. Avoid using any websites for the PPT to PDF conversion; instead, handle the conversion efficiently during the saving process.<br><br>
+                            5. Streamline the workflow to save time and reduce errors.<br><br>
+                            6. Enhance overall efficiency and accuracy in certificate distribution.<br><br>
+                            <span>Given Dataset:</span><br>
+                            <p>Excel - <a href="" class="down">Click to Download</a></p>
+                            <p>PPT - <a href="" class="down">Click to Download</a></p>
+                        </p>
+                    </div>
+                    <!-- <div class="output">
+                        <h2>Sample Output:</h2><br>
+                        <img class="output-img" src="/assets/images/core-images/Automation/Weekly Contest/Sample Output/Week 15.png" alt="week-10 output">
+                    </div> -->
+                    <div class="note-container">
+                        <div class="note-section-page" data-aos="fade-up">
+                            <h3>Important Note</h3>
+                                <ol>
+                                    <li>Participants can submit only once.</li>
+                                    <li>Submit your solution by clicking <b>Submit Here!</b></li>
+                                    <li><b>Deadline:</b> Submit on or before 7 PM Thursday (01/08/2024).</li>
+                                    <li>The submission instructions are mentioned in the Google Form itself.</li>
+                                </ol>
+                                <div class="banner-btn-about discover-btn-banner about-order-services">
+                                    <a href="https://forms.gle/qJ27amdu6Pkuocuz6" class="text-decoration-none">Submit Here!</a>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -242,6 +292,22 @@
         <script src="assets/js/owl.carousel.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="assets/js/text-animations.js"></script>
+        <script>
+            document.getElementById('title1').addEventListener('click', function() {
+                document.getElementById('content1').style.display = 'block';
+                document.getElementById('content2').style.display = 'none';
+                document.getElementById('title1').classList.add('active');
+                document.getElementById('title2').classList.remove('active');
+            });
+    
+            document.getElementById('title2').addEventListener('click', function() {
+                document.getElementById('content1').style.display = 'none';
+                document.getElementById('content2').style.display = 'block';
+                document.getElementById('title1').classList.remove('active');
+                document.getElementById('title2').classList.add('active');
+            });
+
+        </script>
       
     </body>
 

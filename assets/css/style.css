@@ -1837,6 +1837,7 @@ color: var(--e-global-color-about-teams-red);
   text-align: center;
   color: #dcd1d1;
   line-height: 45px;
+  margin-bottom: 20px;
 }
 .wcq-container h2 {
   font-size: 22px;
@@ -2146,4 +2147,31 @@ span.overlay {
   color: var(--e-global-color-white-banner-text);
   text-align: center;
   margin-bottom: 45px;
+}
+.year .titles {
+  cursor: pointer;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 0px 12px;
+  font-weight: 500;
+}
+.wcq-container .year{
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+.content {
+  display: none;
+}
+
+#content1 {
+  display: block;
+}
+
+.titles.active {
+  background: var(--e-global-color-btn-red);
+  border-radius: 5px;
+}
+.down:hover{
+  color: var(--e-global-color-btn-red);
 }
